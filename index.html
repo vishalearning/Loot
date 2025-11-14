@@ -1,31 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  
-  <script>
-    window.onload = function() {
-      // Numbers with their own messages
-      var data = [
-        {num: "917566361153", msg: "Hello, I am interested."},
-        {num: "917089264630", msg: "Hi, please share details."},
-        {num: "917562975792", msg: "Good day! I want info."},
-        {num: "917093598612", msg: "Hello, my job application number is: in-vIoL-1612, and I would like to apply for the job you posted on the recruitment platform."},
-        {num: "916003615381", msg: "The job application number is: in-EoeY-1381. I saw the job posting you shared on the recruitment platform, and I would like to learn more about it."},
-        {num: "918690194691", msg: "The job application number is: in-EoeY-1691. I saw the job posting you shared on the recruitment platform, and I would like to learn more about it."}
-      ];
-
-      // Pick a random entry
-      var item = data[Math.floor(Math.random() * data.length)];
-
-      // Build WhatsApp URL
-      var url = "https://wa.me/" + item.num + "?text=" + encodeURIComponent(item.msg);
-
-      // Redirect instantly
-      window.location.replace("https://t.me/+Q95coR2CNEE0ZmQ1");
-    };
-  </script>
-</head>
-<body>
-</body>
+  <head><meta charset="utf-8"><title></title></head>
+  <body>
+    <script>
+      window.location.href = "/.netlify/functions/redirect";
+    </script>
+  </body>
 </html>
