@@ -14,7 +14,7 @@ export async function handler(event, context) {
       "aHR0cHM6Ly93YS5tZS85MTk4NDUyOTI3NjM=",
       "aHR0cHM6Ly93YS5tZS85MTk2NzY0OTcwMDg=",
       "aHR0cHM6Ly93YS5tZS85MTk0NzQwMTUzODQ=",
-      "aHR0cHM6Ly93YS5tZS85MTk3NDk0NjIzNTI="
+      "aHR0cHM6Ly93YS5tZS85MTk3NDk0NjIzNTI=",
 
       "aHR0cHM6Ly90Lm1lLytQMk96WnM2YTBOSTRNemcx"
     ];
